@@ -1,0 +1,13 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+packages/debug
+build
+
+# misc
+.DS_Store
+
+npm-debug.log*
+lerna-debug.log*
+*.tgz

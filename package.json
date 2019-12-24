@@ -1,0 +1,17 @@
+{
+    "private": true,
+    "scripts": {
+        "bootstrap": "lerna bootstrap",
+        "reset": "cd packages/cra && rimraf node_modules && cd ../.. && rimraf node_modules"
+    },
+    "devDependencies": {
+        "lerna": "3.19.0",
+        "rimraf": "3.0.0"
+    },
+    "name": "lerna",
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ]
+    }
+}
